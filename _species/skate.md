@@ -1,5 +1,6 @@
 ---
 title: Skate
+synonyms: Rokke
 latin: Rajiformes
 slogan: Det er lov å hate en som serverer en skate.
 ranking: Red

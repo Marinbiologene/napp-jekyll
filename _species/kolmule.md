@@ -1,6 +1,8 @@
 ---
 title: Kolmule
 latin: Micromesistius poutassou
+synonyms: 
+  - Torskefisk
 ranking: Orange
 sources: 
   - Artsdatabanken

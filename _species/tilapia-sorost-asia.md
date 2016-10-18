@@ -1,5 +1,6 @@
 ---
 title: Tilapia
+ranking: Gray
 ranking_climate: Bad
 sources:
   - WWF

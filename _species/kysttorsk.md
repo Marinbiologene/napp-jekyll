@@ -1,5 +1,7 @@
 ---
 title: Kysttorsk
+synonyms:
+  - Torsk
 latin: Gadus morhua
 ranking: Red
 sources:

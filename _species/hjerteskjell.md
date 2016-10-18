@@ -1,6 +1,8 @@
 ---
 title: Hjerteskjell
 latin: Cardiidae
+synonyms: 
+  - Pigghjerteskjell
 ranking: Green
 ranking_climate: Good
 ---

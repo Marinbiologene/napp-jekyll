@@ -1,6 +1,8 @@
 ---
 title: Lyr
 latin: Pollachius pollachius
+synonyms: 
+  - Pollock
 ranking: Orange
 ranking_climate: Good
 labels:

@@ -1,6 +1,7 @@
 ---
 latin: Melanogrammus aeglefinuser
 title: Hyse
+synonyms: Kolje, Torskefisk
 ranking: Green
 labels:
   - KRAV
