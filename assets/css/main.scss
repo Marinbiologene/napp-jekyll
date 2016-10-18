@@ -1,0 +1,79 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+body {
+  font-size: 16px;
+}
+
+header {
+  min-height: 40px;
+}
+
+.container {
+  max-width: 800px;
+}
+
+.napp-title {
+  font-size: 160%;
+}
+
+.napp-ranking-summary {
+    &:before {
+      content: "— ";
+    }
+  }
+
+.napp-labels-images {
+  img {
+    height: 70px;
+    width: auto;
+    display: inline-block;
+  }
+}
+
+.napp-collection {
+  
+  >button {
+    outline: none;
+    padding: 1.5em;
+    padding-top: 2em;
+    padding-left: 64px;
+    background-position: 12px 50%;
+    background-repeat: no-repeat;
+    background-size: 40px 56px;
+    
+    &.ranking-red {
+      background-image: url(../icons/napp-icon-ranking-red.png);
+    }
+    
+    &.ranking-orange {
+      background-image: url(../icons/napp-icon-ranking-orange.png);
+    }
+    
+    &.ranking-green {
+      background-image: url(../icons/napp-icon-ranking-green.png);
+    }
+    
+    .glyphicon {
+      position: absolute;
+      right: 1em;
+      top: 50%;
+      margin-top: -3px;
+    }
+  }
+  
+  article {
+    padding-top: 1.5em;
+    padding-left: 64px;
+    padding-right: 3em;
+    padding-bottom: 2em;
+    :last-child {
+      margin-bottom: 0;
+    }
+    
+    display: none;
+  }
+  
+}

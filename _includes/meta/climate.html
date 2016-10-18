@@ -1,0 +1,18 @@
+{% case species.ranking_climate %}
+  {% when 'Good' %}
+    {% assign text = 'et godt klimavalg' %}
+  {% when 'Ok' %}
+    {% assign text = 'et ok klimavalg' %}
+  {% when 'Bad' %}
+    {% assign text = 'et dårlig klimavalg' %}
+  {% else %}
+    {% assign text = 'ingen klimavurdering' %}
+{% endcase %}
+
+{% if include.summary %}
+<span class="napp-ranking-summary text-muted">{{ text }}</span>
+{% elsif species.ranking_climate %}
+<span class="napp-ranking">{{ species.title }} er {{ text }}.</span>
+{% else %}
+<span class="napp-ranking">{{ species.title }} har {{ text }}.</span>
+{% endif %}

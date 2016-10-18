@@ -1,0 +1,5 @@
+{% if species.labels.size > 1 %}
+<span class="napp-labels-summary">Se etter merkene {{ species.labels | join: " og " }}.</span>
+{% elsif species.labels.size == 1 %}
+<span class="napp-labels-summary">Se etter merket {{ species.labels | join: " og " }}.</span>
+{% endif %}
