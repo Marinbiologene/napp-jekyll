@@ -1,8 +1,17 @@
-<header class="napp-search">
-  <div class="input-group input-group-lg" id="index-explorer-search">
+<header id="napp-search">
+  <form class="input-group input-group-lg" action="#" method="get">
     <span class="input-group-addon "><span class="glyphicon glyphicon-search"></span></span>
     <input class="form-control" autocomplete="off" spellcheck="false"
-           placeholder="Søk..." type="text" id="s" />
+           placeholder="Søk..." type="text" id="q" />
     <button class="btn"><span class="glyphicon glyphicon-remove-circle"></span></button>
-  </div>
+  </form>
 </header>
+
+<div id="napp-search-empty" class="list-group">
+  <div class="list-group-item">
+    Ingen treff for <strong class="napp-search-query"></strong>
+  </div>
+</div>
+
+<section id="napp-search-results" class="list-group">
+</section>

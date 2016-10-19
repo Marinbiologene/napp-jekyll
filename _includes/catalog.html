@@ -1,15 +1,16 @@
-<main class="napp-catalog list-group">
+<main id="napp-catalog" class="list-group">
   {% assign species_list = site.species | sort: 'title' %}
   {% for species in species_list %}
-    <button class="list-group-item ranking-{{ species.ranking | downcase }}">
-      <span class="napp-title">{{ species.title }}</span>
-      {% include meta/ranking.html summary=true %}
+    <button data-url="{{ species.url }}" class="list-group-item ranking-{{ species.ranking | downcase }}">
+      <p>
+        <span class="napp-title">{{ species.title }}</span>
+        {% include meta/ranking.html summary=true %}
+      </p>
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     </button>
-    <article class="list-group-item">
-
+    <article data-url="{{ species.url }}" class="list-group-item">
       {% if species.latin %}
-      <p><em class="text-muted">{{ species.latin }}</em></p>
+        <p><em class="text-muted">{{ species.latin }}</em></p>
       {% endif %}
       {% if species.alert %}
       <p class="alert alert-{{ species.alert.type | default: info }}">{{ species.alert.text }}</p>
