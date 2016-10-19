@@ -3,9 +3,22 @@
   function clearSearchResults() {
     $('#napp-search-results').empty().hide();
     $('#napp-search-empty').hide();
+    $('#napp-search-error').hide();
 
     $('#napp-catalog article').hide();
     $('#napp-catalog').show();
+  }
+
+  function showSearchError() {
+    clearSearchResults();
+    $('#napp-search-error .napp-search-query').html($('#q').val());
+    $('#napp-search-error').show();
+  }
+
+  function showSearchEmpty() {
+    clearSearchResults();
+    $('#napp-search-empty .napp-search-query').html($('#q').val());
+    $('#napp-search-empty').show();
   }
 
   function highlightedTitles(hit) {
@@ -38,17 +51,15 @@
     }
 
     var hitsCount = result.hits.length;
-    $('#napp-search-results').empty().show();
 
     if (hitsCount === 0) {
       // no results
-      $('#napp-search-empty .napp-search-query').html($('#q').val());
-      $('#napp-search-empty').show();
-      $('#napp-catalog').show();
+      showSearchEmpty();
       return;
     }
 
-    $('#napp-search-empty').hide();
+    clearSearchResults();
+    $('#napp-search-results').show();
     $('#napp-catalog').hide();
 
     for (var i = 0; i < hitsCount; ++i) {
@@ -94,7 +105,10 @@
         $clearButton.show();
         index.search($inputfield.val(), { hitsPerPage: 10 })
           .done(searchCallback)
-          .fail(function(result) { console.log('Error', result); });
+          .fail(function(result) {
+            console.log('Error', result);
+            showSearchError();
+          });
       } else {
         $clearButton.hide();
         clearSearchResults();
