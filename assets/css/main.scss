@@ -32,16 +32,34 @@ body {
 }
 
 #napp-search {
-  padding: 3em 0;
+  margin: 3em 0;
   padding-left: 100px;
   margin-left: -35px;
-  background-position: 0 center;
-  background-image: url(../icons/napp-icon_header.png);
-  background-repeat: no-repeat;
-  background-size: auto 80px;
+  margin-right: 0.5em;
+  position: relative;
+
+  .napp-search-clear {
+    cursor: pointer;
+  }
+
+  .brand {
+    position: absolute;
+    top: -14px;
+    left: 0;
+    height: 80px;
+    width: 120px;
+    background-position: 0 center;
+    background-image: url(../icons/napp-icon_header.png);
+    background-repeat: no-repeat;
+    background-size: auto 80px;
+  }
 
   .input-group {
     border-bottom: 2px solid $napp-blue;
+
+    .glyphicon {
+      top: 5px;
+    }
 
     .input-group-addon {
       padding-right: 0;
@@ -56,7 +74,7 @@ body {
       outline: none !important;
     }
 
-    >button:last-child {
+    .btn {
       display: none;
 
       position: absolute;

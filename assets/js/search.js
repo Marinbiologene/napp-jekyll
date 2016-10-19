@@ -1,7 +1,9 @@
 (function ($) {
 
-  function clearSearch() {
+  function clearSearchResults() {
     $('#napp-search-results').empty().hide();
+    $('#napp-search-empty').hide();
+
     $('#napp-catalog article').hide();
     $('#napp-catalog').show();
   }
@@ -72,20 +74,29 @@
   }
 
   $(document).ready(function() {
+
     var $inputfield = $('#q');
+    var $clearButton = $('#napp-search button.napp-search-clear');
     // Replace the following values by your ApplicationID and ApiKey.
     var client = $.algolia.Client('QRAL2FHS60', '58abef0b64a591c5efda8bbe11d281cd');
     // Replace the following value by the name of the index you want to query.
     var index = client.initIndex('napp');
 
+    $('#napp-search .napp-search-clear').click(function() {
+      $inputfield.val('').trigger('keyup');
+    });
+
+
     $inputfield.keyup(function() {
 
       if($inputfield.val()) {
+        $clearButton.show();
         index.search($inputfield.val(), { hitsPerPage: 10 })
           .done(searchCallback)
           .fail(function(result) { console.log('Error', result); });
       } else {
-        clearSearch();
+        $clearButton.hide();
+        clearSearchResults();
       }
 
     }).focus().closest('form').on('submit', function() {
