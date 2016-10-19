@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Om oss
+title: Om tjenesten
 ---
 Appen Grønt NAPP er et samarbeid mellom Marinbiologene og bGraphic.
 

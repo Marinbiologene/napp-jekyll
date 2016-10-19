@@ -14,14 +14,14 @@ body {
   header, main {
     margin: 2em 0;
   }
+
+  article.post {
+    margin: 3em 0;
+  }
 }
 
 .container {
   max-width: 800px;
-}
-
-.content {
-  padding-left: 65px;
 }
 
 .list-group .list-group-item {
@@ -35,6 +35,39 @@ body {
 .napp-ranking-summary {
   &:before {
     content: "— ";
+  }
+}
+
+#napp-page {
+  h1 {
+    font-size: 120%;
+  }
+
+  header {
+    margin-left: -35px;
+    padding-left: 100px;
+    position: relative;
+    min-height: 80px;
+
+    h1 {
+      font-size: 160%;
+      height: 46px;
+      display: table-cell;
+      vertical-align: bottom;
+      padding-left: 0.5em;
+    }
+
+    .brand {
+      position: absolute;
+      top: -14px;
+      left: 0;
+      height: 80px;
+      width: 120px;
+      background-position: 0 center;
+      background-image: url(../icons/napp-icon_header.png);
+      background-repeat: no-repeat;
+      background-size: auto 80px;
+    }
   }
 }
 
