@@ -1,14 +1,56 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
-@charset "utf-8";
+
+$napp-blue: #0F4076;
+$napp-green: #006600;
+$napp-orange: #CC6600;
+$napp-red: #CC0000;
 
 body {
   font-size: 16px;
 }
 
-header {
-  min-height: 40px;
+.napp-search {
+  padding: 3em 0;
+  padding-left: 100px;
+  margin-left: -35px;
+  background-position: 0 center;
+  background-image: url(../icons/napp-icon_header.png);
+  background-repeat: no-repeat;
+  background-size: auto 80px;
+
+  .input-group {
+    border-bottom: 2px solid $napp-blue;
+
+    .input-group-addon {
+      padding-right: 0;
+    }
+
+    .form-control,
+    .input-group-addon,
+    button {
+      border: none;
+      background: transparent;
+      box-shadow: none !important;
+      outline: none !important;
+    }
+
+    >button:last-child {
+      display: none;
+
+      position: absolute;
+      color: #555;
+      height: 100%;
+      right: 0;
+      z-index: 9;
+      background: transparent;
+
+      &:hover {
+        color: black;
+      }
+    }
+  }
 }
 
 .container {
@@ -40,20 +82,21 @@ header {
     padding: 1.5em;
     padding-top: 2em;
     padding-left: 64px;
+    background-image: url(../icons/napp-icon_gray.png);
     background-position: 12px 50%;
     background-repeat: no-repeat;
     background-size: 40px 56px;
     
     &.ranking-red {
-      background-image: url(../icons/napp-icon-ranking-red.png);
+      background-image: url(../icons/napp-icon_red.png);
     }
     
     &.ranking-orange {
-      background-image: url(../icons/napp-icon-ranking-orange.png);
+      background-image: url(../icons/napp-icon_orange.png);
     }
     
     &.ranking-green {
-      background-image: url(../icons/napp-icon-ranking-green.png);
+      background-image: url(../icons/napp-icon_green.png);
     }
     
     .glyphicon {

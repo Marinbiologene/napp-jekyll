@@ -6,4 +6,8 @@
     $article.toggle();
     $button.blur();
   });
+
+
+
+
 })(jQuery);
