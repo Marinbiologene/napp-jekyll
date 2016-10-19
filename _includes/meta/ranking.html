@@ -1,15 +1,15 @@
 {% case species.ranking %}
   {% when 'Red' %}
-    {% assign text = 'et dårlig valg' %}
+    {% assign text = 'et&nbsp;dårlig&nbsp;valg' %}
     {% assign color = 'røde' %}
   {% when 'Orange' %}
-    {% assign text = 'vær kritisk' %}
+    {% assign text = 'vær&nbsp;kritisk' %}
     {% assign color = 'oransje' %}
   {% when 'Green' %}
-    {% assign text = 'et godt valg' %}
+    {% assign text = 'et&nbsp;godt&nbsp;valg' %}
     {% assign color = 'grønne' %}
   {% else %}
-    {% assign text = 'foreløpig usikker' %}
+    {% assign text = 'foreløpig&nbsp;usikker' %}
     {% assign color = '' %}
 {% endcase %}
 
