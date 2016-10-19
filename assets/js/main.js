@@ -4,6 +4,7 @@
     $article = $button.next();
     
     $article.toggle();
+    $button.toggleClass('open');
     $button.blur();
   });
 
