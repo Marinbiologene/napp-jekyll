@@ -1,5 +1,5 @@
 (function ($) {
-  $('.napp-collection button').click(function() {
+  $('.napp-catalog > button').click(function() {
     $button = $(this);
     $article = $button.next();
     
