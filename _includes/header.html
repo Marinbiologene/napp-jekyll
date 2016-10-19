@@ -1,10 +1,13 @@
 <header id="napp-search">
   <div class="brand napp-search-clear"></div>
-  <form class="input-group input-group-lg" action="#" method="get">
-    <span class="input-group-addon napp-search-clear"><span class="glyphicon glyphicon-search"></span></span>
-    <input class="form-control" autocomplete="off" spellcheck="false"
+  <form action="#" method="get">
+    <div class="input-group input-group-lg">
+      <span class="input-group-addon napp-search-clear"><span class="glyphicon glyphicon-search"></span></span>
+      <input class="form-control" autocomplete="off" spellcheck="false"
            placeholder="Søk..." type="text" id="q" />
-    <button type="button" class="btn napp-search-clear"><span class="glyphicon glyphicon-remove-circle"></span></button>
+      <button type="button" class="btn napp-search-clear"><span class="glyphicon glyphicon-remove-circle"></span></button>
+    </div>
+    <p class="help-block">{{ site.description }}</p>
   </form>
 </header>
 

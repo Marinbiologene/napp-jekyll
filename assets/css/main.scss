@@ -9,16 +9,23 @@ $napp-red: #CC0000;
 
 body {
   font-size: 16px;
-}
+  margin: 1em 0;
 
-.list-group {
-  .list-group-item {
-    padding: 1.5em;
+  header, main {
+    margin: 2em 0;
   }
 }
 
 .container {
   max-width: 800px;
+}
+
+.content {
+  padding-left: 65px;
+}
+
+.list-group .list-group-item {
+  padding: 1.5em;
 }
 
 .napp-title {
@@ -32,7 +39,6 @@ body {
 }
 
 #napp-search {
-  margin: 3em 0;
   padding-left: 100px;
   margin-left: -35px;
   margin-right: 0.5em;
@@ -52,6 +58,11 @@ body {
     background-image: url(../icons/napp-icon_header.png);
     background-repeat: no-repeat;
     background-size: auto 80px;
+  }
+
+  .help-block {
+    padding-left: 1em;
+    padding-top: 1em;
   }
 
   .input-group {
@@ -106,7 +117,7 @@ body {
   
   .list-group-item {
     outline: none;
-    padding-left: 64px;
+    padding-left: 65px;
   }
 
   button.list-group-item {
