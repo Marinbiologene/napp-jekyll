@@ -4,22 +4,19 @@
     {% assign color = 'røde' %}
   {% when 'Orange' %}
     {% assign text = 'vær kritisk' %}
-    {% assign color = 'grønne' %}
+    {% assign color = 'oransje' %}
   {% when 'Green' %}
     {% assign text = 'et godt valg' %}
     {% assign color = 'grønne' %}
   {% else %}
     {% assign text = 'foreløpig usikker' %}
+    {% assign color = '' %}
 {% endcase %}
 
 {% if include.summary %}
 <span class="napp-ranking-summary text-muted">{{ text }}</span>
-{% elsif color %}
+{% elsif species.ranking != 'Gray' %}
 <span class="napp-ranking">{{ species.title }} er på vår {{ color }} listen; {{ text }}.</span>
 {% else %}
-<span class="napp-ranking">{{ species.title }} er ikke på noen liste enda.</span>
+<span class="napp-ranking">{{ species.title }} er ikke satt opp på rød-, grønn- eller gul-liste enda.</span>
 {% endif %}
-
-
-
-
