@@ -11,13 +11,13 @@ body {
   font-size: 16px;
   margin: 1em 0;
 
-  header, main {
+  header, main, section {
     margin: 2em 0;
   }
+}
 
-  article.post {
-    margin: 3em 0;
-  }
+footer {
+  text-align: center;
 }
 
 .container {
@@ -39,15 +39,25 @@ body {
 }
 
 #napp-page {
+
   h1 {
-    font-size: 120%;
+    font-size: 130%;
+  }
+
+  h2 {
+    font-size: 110%;
+  }
+
+  h1, h2 {
+    &:first-child {
+      margin-top: 0;
+    }
   }
 
   header {
     margin-left: -35px;
     padding-left: 100px;
     position: relative;
-    min-height: 80px;
 
     h1 {
       font-size: 160%;
@@ -67,6 +77,19 @@ body {
       background-image: url(../icons/napp-icon_header.png);
       background-repeat: no-repeat;
       background-size: auto 80px;
+    }
+  }
+
+  section {
+    padding: 1.5em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-left: 64px;
+
+    img {
+      width: 100px;
+      float: right;
+      margin-left: 1em;
     }
   }
 }

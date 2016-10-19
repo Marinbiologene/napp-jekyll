@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Klassifisering
+title: Klassifisering av arter
 ---
 # Fargeinndeling
 
@@ -19,7 +19,7 @@ Marinbiologene tar gjerne imot innspill og kommentarer til listen. Send en e-pos
 
 Send gjerne inn forslag til huskeregler også ;-)
 
-## Klimainformasjon
+# Klimainformasjon
 
 Klimavalgvurderingene er basert på Grønn Hverdags opplysninger om utslipp av klimagasser.
 

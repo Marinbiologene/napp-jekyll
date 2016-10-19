@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Om tjenesten
+title: Om Grønt Napp
 ---
-Appen Grønt NAPP er et samarbeid mellom Marinbiologene og bGraphic.
+Appen Grønt Napp er et samarbeid mellom Marinbiologene og Lilly Labs.
 
-Marinbiologene står for det faglige innholdet og bGraphic er vår tekniske superkvinne.
+Marinbiologene står for det faglige innholdet og Benedicte fra Lilly Labs er vår tekniske superkvinne.
 
 # Marinbiologene
 
@@ -12,8 +12,8 @@ Vi er fullstendig uavhengig av både forskningsinstitusjoner og forvaltningsmynd
 
 Vi er Marianne Olsen, Guri Sogn Andersen og Kristina Kvile. For mer info, besøk [marinbiologene.no](http://marinbiologene.no "Marinbiologene").
 
-# bGraphic
+# Lilly Labs
 
 Benedicte (bGraphic) har vært involvert i prosjektet fra starten og vi er utrolig takknemlige for at hun deler av sin tid og sine superheltkrefter. For Benedicte er ingen teknisk utfordring uoverkommelig. Hun har kodet Grønt NAPP og står for både funksjonalitet og design.
 
-For mer info, besøk [bgraphic.no](http://bgraphic.no "bGraphic").
+For mer info, besøk [lillylabs.no](http://lillylabs.no "Lilly Labs").
