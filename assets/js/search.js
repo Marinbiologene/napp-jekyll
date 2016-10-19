@@ -68,6 +68,7 @@
       $button.show();
 
       if(hitsCount === 1) {
+        $button.addClass('open');
         $article.show();
       }
     }
