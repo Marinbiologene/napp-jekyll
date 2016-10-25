@@ -1,7 +1,7 @@
 ---
 title: Kysttorsk
 synonyms:
-  - Torsk
+  - Torskefisk
 latin: Gadus morhua
 ranking: Red
 sources:
