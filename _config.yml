@@ -9,7 +9,7 @@
 title: Grønt Napp
 email: raae@bgraphic.no
 description: > # this means to ignore newlines until "baseurl:"
-  Grønt Napp hjelper deg å velge bærekraftig sjømat.
+  Spis bærekraftig sjømat med god samvittighet!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://grøntnapp.no" # the base hostname & protocol for your site
 permalink: pretty
