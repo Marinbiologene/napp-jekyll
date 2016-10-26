@@ -20,6 +20,7 @@ defaults:
       file: 
       caption: 
     latin: 
+    synonyms:
     slogan:
       content: 
       attribution: 
