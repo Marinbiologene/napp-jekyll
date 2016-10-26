@@ -16,18 +16,19 @@ defaults:
     path: ''
     type: species
   values:
+    ranking: 
+    ranking_climate: 
     image:
       file: 
       caption: 
     latin: 
+    synonyms: 
     slogan:
-      text: 
+      content: 
       attribution: 
     alert:
-      text: 
+      content: 
       type: 
-    ranking: 
-    ranking_climate: 
     labels: []
     sources: []
 email: raae@bgraphic.no
