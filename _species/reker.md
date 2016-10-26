@@ -1,5 +1,8 @@
 ---
 title: Reker
+image:
+  file: "/uploads/reker.jpg"
+  caption: 'Foto: Eksportutvalget for fisk'
 ranking: Orange
 ranking_climate: Ok
 labels:

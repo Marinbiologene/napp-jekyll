@@ -1,5 +1,8 @@
 ---
 title: Torsk (Nordsjøen)
+image:
+  file: "/uploads/torsk.jpg"
+  caption: 'Foto: Lauritzen og Westhammer / Eksportutvalget for fisk'
 latin: Gadus morhua
 ranking: Red
 ranking_climate: Good

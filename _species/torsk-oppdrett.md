@@ -1,5 +1,8 @@
 ---
 title: Torsk (oppdrett)
+image:
+  file: "/uploads/torsk.jpg"
+  caption: 'Foto: Lauritzen og Westhammer / Eksportutvalget for fisk'
 ranking: Orange
 ranking_climate: Ok
 labels:

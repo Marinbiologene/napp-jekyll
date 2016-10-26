@@ -1,5 +1,8 @@
 ---
 title: Laks (oppdrett)
+image:
+  file: "/uploads/laks.jpg"
+  caption: 'Foto: Eksportutvalget for fisk'
 latin: Salmo salar
 ranking: Orange
 ranking_climate: Good

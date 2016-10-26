@@ -1,10 +1,13 @@
 ---
 title: Hjerteskjell
+image:
+  file: "/uploads/hjerteskjell.jpg"
+  caption: 'Foto: Eksportutvalget for fisk'
 latin: Cardiidae
-synonyms:
-- Pigghjerteskjell
 ranking: Green
 ranking_climate: Good
+synonyms:
+- Pigghjerteskjell
 ---
 
 Hjerteskjell er en familie av muslinger med hjerteformede skall. De lever i sand- og mudderbunn i strandsonen og ned til større dyp. Langs Norskekysten er de to vanligste artene vanlig hjerteskjell og pigghjerteskjell.

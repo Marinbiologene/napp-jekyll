@@ -1,5 +1,8 @@
 ---
 title: Sild
+image:
+  file: "/uploads/sild.jpg"
+  caption: 'Foto: Yvonne Holth / Eksportutvalget for fisk'
 latin: Clupea harengus
 slogan: Sild er gild
 ranking: Green

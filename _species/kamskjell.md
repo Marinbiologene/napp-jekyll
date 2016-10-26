@@ -1,5 +1,8 @@
 ---
 title: Kamskjell
+image:
+  file: "/uploads/kamskjell.jpg"
+  caption: 'Foto: Eksportutvalget for fisk'
 latin: Pecten maximus
 ranking: Green
 labels:

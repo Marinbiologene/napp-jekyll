@@ -1,5 +1,8 @@
 ---
 title: Kongekrabbe
+image:
+  file: "/uploads/kongekrabbe.jpg"
+  caption: 'Foto: Eiliv Leren / Eksportutvalget for fisk'
 latin: Paralithodes camtschaticus
 slogan:
 - text: Kongekrabbe er konge, men best i magen.
