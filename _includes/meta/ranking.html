@@ -16,7 +16,7 @@
 {% if include.summary %}
 <span class="napp-ranking-summary text-muted">{{ text }}</span>
 {% elsif species.ranking != 'Gray' %}
-<span class="napp-ranking">{{ species.title }} er på vår {{ color }} liste; {{ text }}.</span>
+<span class="napp-ranking">{{ species.title }} er på <a href="/klassifisering">vår {{ color }} liste; {{ text }}.</a></span>
 {% else %}
-<span class="napp-ranking">{{ species.title }} er ikke satt opp på rød-, grønn- eller gul-liste enda.</span>
+<span class="napp-ranking">{{ species.title }} er ikke satt opp på <a href="/klassifisering">rød-, grønn- eller gul-liste enda.</a></span>
 {% endif %}

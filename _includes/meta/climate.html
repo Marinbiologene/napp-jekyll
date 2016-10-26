@@ -12,7 +12,7 @@
 {% if include.summary %}
 <span class="napp-ranking-summary text-muted">{{ text }}</span>
 {% elsif species.ranking_climate %}
-<span class="napp-ranking">{{ species.title }} er {{ text }}.</span>
+<span class="napp-ranking">{{ species.title }} er <a href="/klassifisering">{{ text }}.</a></span>
 {% else %}
-<span class="napp-ranking">{{ species.title }} har {{ text }}.</span>
+<span class="napp-ranking">{{ species.title }} har <a href="/klassifisering">{{ text }}.</a></span>
 {% endif %}
