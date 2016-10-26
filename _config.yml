@@ -16,9 +16,9 @@ defaults:
     path: ''
     type: species
   values:
-    image: 
-      file:
-      caption:
+    image:
+      file: 
+      caption: 
     latin: 
     slogan: 
     alert: 
