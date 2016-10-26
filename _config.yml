@@ -11,17 +11,12 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: raae@bgraphic.no
-description: 'Spis bærekraftig sjømat med god samvittighet!'
-baseurl: ''
-url: http://grøntnapp.no
-permalink: pretty
 defaults:
 - scope:
-    path: ""
-    type: "species"
+    path: ''
+    type: species
   values:
-    imgage:
+    image:
     latin:
     slogan:
     alert:
@@ -29,3 +24,8 @@ defaults:
     ranking_climate:
     labels: []
     sources: []
+email: raae@bgraphic.no
+description: Spis bærekraftig sjømat med god samvittighet!
+baseurl: ''
+url: http://grøntnapp.no
+permalink: pretty
