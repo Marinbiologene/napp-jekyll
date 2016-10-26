@@ -1,5 +1,5 @@
 ---
-title: Kongekrabbe
+title: Konge&shy;krabbe
 image:
   file: "/uploads/kongekrabbe.jpg"
   caption: 'Foto: Eiliv Leren / Eksportutvalget for fisk'

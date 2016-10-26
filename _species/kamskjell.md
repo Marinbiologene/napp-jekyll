@@ -1,5 +1,5 @@
 ---
-title: Kamskjell
+title: Kam&shy;skjell
 image:
   file: "/uploads/kamskjell.jpg"
   caption: 'Foto: Eksportutvalget for fisk'
