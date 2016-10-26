@@ -1,5 +1,8 @@
 ---
 title: Breiflabb
+image:
+  file: "/uploads/breiflabb.jpg"
+  caption: 'Foto: Eiliv Leren / Eksportutvalget for fisk'
 latin: Lophius piscatorius
 ranking: Red
 sources:
