@@ -21,6 +21,7 @@ defaults:
     path: ""
     type: "species"
   values:
+    imgage:
     latin:
     slogan:
     alert:
