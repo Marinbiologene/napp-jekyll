@@ -1,7 +1,7 @@
 ---
 title: Hai
 ranking: Red
-synonyms: 
+synonyms:
 - Håbrann
 - Pigghå
 slogan:
