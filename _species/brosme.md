@@ -1,5 +1,8 @@
 ---
 title: Brosme
+image:
+  file: "/uploads/brosme.jpg"
+  caption: 'Foto: Norges sjømatråd'
 latin: Brosme brosme
 ranking: Green
 sources:
