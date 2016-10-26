@@ -1,11 +1,14 @@
 ---
 title: Kveite (viltfanget)
+image:
+  file: "/uploads/kveite.jpg"
+  caption: 'Foto: Eiliv Leren / Eksportutvalget for fisk'
 latin: Hippoglossus hippoglossus
-ranking: Orange
-ranking_climate: Ok
 alert:
   text: Skal du spise kveite, så velg kveite som kommer fra nordlige deler av Norge.
   type: info
+ranking: Orange
+ranking_climate: Ok
 sources:
 - Artsdatabanken
 - Havforskningsinstituttet
