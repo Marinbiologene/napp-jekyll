@@ -1,5 +1,8 @@
 ---
 title: Taskekrabbe
+image:
+  file: "/uploads/krabbe.jpg"
+  caption: 'Foto: Petter Berg / Eksportutvalget for fisk'
 latin: Cancer pagurus
 ranking: Green
 sources:
