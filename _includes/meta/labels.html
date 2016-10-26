@@ -1,5 +1,18 @@
-{% if species.labels.size > 1 %}
-<span class="napp-labels-summary">Se etter merkene {{ species.labels | join: " og " }}.</span>
-{% elsif species.labels.size == 1 %}
-<span class="napp-labels-summary">Se etter merket {{ species.labels | join: " og " }}.</span>
+{% if include.text %}
+  {% if species.labels.size > 1 %}
+  <span class="napp-labels-summary">Se etter merkene: {{ species.labels | join: ", " }}.</span>
+  {% elsif species.labels.size == 1 %}
+  <span class="napp-labels-summary">Se etter merket: {{ species.labels | join: ", " }}.</span>
+  {% endif %}
+{% endif %}
+
+{% if include.images %}
+  {% for label in species.labels %}
+    {% case label %}
+      {% when 'MSC' %}
+        <img title="MSC" class="napp-label" src="assets/icons/napp-icon_msc.jpg" />
+      {% when 'KRAV' %}
+        <img title="KRAV" class="napp-label" src="assets/icons/napp-icon_krav.jpg" />
+    {% endcase %}
+  {% endfor %}
 {% endif %}

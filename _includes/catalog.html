@@ -36,7 +36,8 @@
       </ul>
 
       {% if species.labels.size > 0 %}
-      <p>{% include meta/labels.html %}</p>
+      <p>{% include meta/labels.html text=true %}</p>
+      <p>{% include meta/labels.html images=true %}</p>
       {% endif %}
 
     </article>
