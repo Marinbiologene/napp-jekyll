@@ -257,13 +257,14 @@ body {
   article.list-group-item {
     display: none;
 
-    >ul {
+    >p, >ul, >blockquote {
       margin: 1.5em 0;
     }
 
     >:last-child {
       margin-bottom: 0;
     }
+
   }
   
 }
