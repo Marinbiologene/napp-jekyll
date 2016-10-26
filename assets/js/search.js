@@ -27,6 +27,8 @@
 
     if(hit._highlightResult.title && hit._highlightResult.title.matchLevel !== 'none') {
       title = hit._highlightResult.title.value;
+    } else if(hit._highlightResult.alt_title && hit._highlightResult.alt_title.matchLevel !== 'none') {
+      title = hit._highlightResult.alt_title.value;
     }
 
     if(hit._highlightResult.synonyms) {
@@ -93,6 +95,9 @@
     var client = $.algolia.Client('QRAL2FHS60', '58abef0b64a591c5efda8bbe11d281cd');
     // Replace the following value by the name of the index you want to query.
     var index = client.initIndex('napp');
+    if (location.hostname === 'localhost') {
+     index = client.initIndex('napp_local');
+    }
 
     $('#napp-search .napp-search-clear').click(function() {
       $inputfield.val('').trigger('keyup');

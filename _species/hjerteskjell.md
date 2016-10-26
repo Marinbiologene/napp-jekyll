@@ -1,5 +1,6 @@
 ---
 title: Hjerteskjell
+alt_title: Hjerte&shy;skjell
 image:
   file: "/uploads/hjerteskjell.jpg"
   caption: 'Foto: Eksportutvalget for fisk'

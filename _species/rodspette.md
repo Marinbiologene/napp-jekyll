@@ -1,5 +1,6 @@
 ---
 title: Rødspette
+alt_title: Rød&shy;spette
 image:
   file: "/uploads/rodspette.jpg"
   caption: 'Foto: Yvonne Holth / Eksportutvalget for fisk'
