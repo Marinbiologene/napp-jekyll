@@ -17,7 +17,7 @@ collections:
     output: true
 algolia:
   application_id: 'QRAL2FHS60'
-  index_name:     'napp'
+  index_name:     'napp_local'
   excluded_files:
     - index.html
   record_css_selector: 'p,ul'
