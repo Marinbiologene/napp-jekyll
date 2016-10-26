@@ -16,8 +16,8 @@ defaults:
     path: ''
     type: species
   values:
-    ranking:
-    ranking_climate:
+    ranking: 
+    ranking_climate: 
     image:
       file: 
       caption: 
@@ -28,7 +28,7 @@ defaults:
       attribution: 
     alert:
       content: 
-      type:
+      type: 
     labels: []
     sources: []
 email: raae@bgraphic.no
