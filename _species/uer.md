@@ -3,7 +3,8 @@ title: Uer
 image:
   file: "/uploads/uer.jpg"
   caption: 'Foto: Eiliv Leren / Eksportutvalget for fisk'
-slogan: Uer er rød og på rødlista!
+slogan: 
+  text: Uer er rød og på rødlista!
 ranking: Red
 sources:
 - Rødlista

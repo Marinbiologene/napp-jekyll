@@ -21,7 +21,11 @@ defaults:
       caption: 
     latin: 
     slogan: 
+      text:
+      attribution:
     alert: 
+      text:
+      type:
     ranking: 
     ranking_climate: 
     labels: []

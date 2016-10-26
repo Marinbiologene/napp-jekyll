@@ -3,7 +3,9 @@ title: Ørret (oppdrett)
 image:
   file: "/uploads/orret.jpg"
   caption: 'Foto: Eksportutvalget for fisk'
-slogan: En ørret i hand bør være fisket med stang.
+slogan: 
+  text: En ørret i hand bør være fisket med stang.
+  attribution: 
 ranking: Orange
 ranking_climate: Ok
 sources:

@@ -4,9 +4,8 @@ image:
   file: "/uploads/piggha.jpg"
   caption: 'Foto: Wikispecies'
 slogan:
-- text: Ta dei du kan sjå, dei andre let du stå... slik som for eksempel pigghå. Men
-    om han skulle bite på så lat han gå, for der er så stekje få.
-- attribution: Takk til Snorre B for dette diktet :)
+  text: 'Ta dei du kan sjå, dei andre let du stå... slik som for eksempel pigghå. Men om han skulle bite på så lat han gå, for der er så stekje få.'
+    attribution: Takk til Snorre B for dette diktet :)
 ranking: Red
 sources:
 - Artsdatabanken
