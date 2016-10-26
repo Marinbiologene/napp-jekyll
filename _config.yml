@@ -20,8 +20,12 @@ defaults:
       file: 
       caption: 
     latin: 
-    slogan: 
-    alert: 
+    slogan:
+      text: 
+      attribution: 
+    alert:
+      text: 
+      type: 
     ranking: 
     ranking_climate: 
     labels: []

@@ -5,7 +5,7 @@ image:
   caption: 'Foto: Eiliv Leren / Eksportutvalget for fisk'
 latin: Hippoglossus hippoglossus
 alert:
-  text: Skal du spise kveite, så velg kveite som kommer fra nordlige deler av Norge.
+  content: Skal du spise kveite, så velg kveite som kommer fra nordlige deler av Norge.
   type: info
 ranking: Orange
 ranking_climate: Ok

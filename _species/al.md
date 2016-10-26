@@ -3,7 +3,9 @@ title: Ål
 image:
   file: "/uploads/al.jpg"
   caption: 'Foto: Wikimedia Commons'
-slogan: Ikke ta kål på en ål!
+slogan:
+  content: Ikke ta kål på en ål!
+  attribution: 
 ranking: Red
 sources:
 - WWF
