@@ -1,5 +1,8 @@
 ---
 title: Rødspette
+image:
+  file: "/uploads/rodspette.jpg"
+  caption: 'Foto: Yvonne Holth / Eksportutvalget for fisk'
 latin: Pleuronectes platessa
 slogan: En middag med rødspette går an å utsette.
 ranking: Orange
