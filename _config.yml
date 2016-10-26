@@ -34,5 +34,5 @@ defaults:
 email: raae@bgraphic.no
 description: Spis bærekraftig sjømat med god samvittighet!
 baseurl: ''
-url: http://grøntnapp.no
+url: http://napp.netlify.com
 permalink: pretty
