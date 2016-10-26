@@ -1,5 +1,8 @@
 ---
 title: Sjøkreps
+image:
+  file: "/uploads/sjokreps.jpg"
+  caption: 'Foto: Eva Brænd / Eksportutvalget for fisk'
 ranking: Orange
 ranking_climate: Good
 labels:
