@@ -1,5 +1,8 @@
 ---
 title: Makrell
+image:
+  file: "/uploads/makrell.jpg"
+  caption: 'Foto: Astrid Hals / Eksportutvalget for fisk'
 latin: Scomber scombrus
 ranking: Orange
 ranking_climate: Good
