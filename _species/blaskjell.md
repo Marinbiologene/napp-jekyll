@@ -1,5 +1,8 @@
 ---
 title: Blåskjell
+image:
+  file: "/uploads/blaskjell.jpg"
+  caption: 'Foto: Alf Børjesson / Eksportutvalget for fisk'
 latin: Mytilus edulis
 slogan: Man kan finne på sprell med gode blåskjell
 ranking: Green
