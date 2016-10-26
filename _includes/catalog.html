@@ -9,21 +9,33 @@
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     </button>
     <article data-url="{{ species.url }}" class="list-group-item">
+
       {% if species.latin %}
         <p><em class="text-muted">{{ species.latin }}</em></p>
       {% endif %}
-      {% if species.alert %}
-      <p class="alert alert-{{ species.alert.type | default: info }}">{{ species.alert.text }}</p>
+
+      {% if species.slogan and species.slogan.content %}
+      <blockquote>
+        <p>{{ species.slogan.content }}</p>
+         {% if species.slogan.attribution %}
+        <footer><cite title="Source Title">{{ species.slogan.attribution }}</cite></footer>
+        {% endif %}
+      </blockquote>
       {% endif %}
+
+      {% if species.alert and species.alert.content %}
+      <p class="alert alert-{{ species.alert.type | default: info }}">{{ species.alert.content }}</p>
+      {% endif %}
+
       {{ species.content | markdownify }}
       <ul>
         <li>{% include meta/ranking.html %}</li>
         <li>{% include meta/climate.html %}</li>
       </ul>
+
       {% if species.labels.size > 0 %}
       <p>{% include meta/labels.html %}</p>
-      {% en
-      dif %}
+      {% endif %}
 
     </article>
   {% endfor %}
