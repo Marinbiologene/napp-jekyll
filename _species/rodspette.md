@@ -5,7 +5,7 @@ image:
   caption: 'Foto: Yvonne Holth / Eksportutvalget for fisk'
 latin: Pleuronectes platessa
 slogan:
-  text: En middag med rødspette går an å utsette.
+  content: En middag med rødspette går an å utsette.
   attribution: 
 ranking: Orange
 ranking_climate: Ok

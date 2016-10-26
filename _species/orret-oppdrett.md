@@ -4,7 +4,7 @@ image:
   file: "/uploads/orret.jpg"
   caption: 'Foto: Eksportutvalget for fisk'
 slogan:
-  text: En ørret i hand bør være fisket med stang.
+  content: En ørret i hand bør være fisket med stang.
   attribution: 
 ranking: Orange
 ranking_climate: Ok

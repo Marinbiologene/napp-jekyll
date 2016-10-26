@@ -4,7 +4,7 @@ image:
   file: "/uploads/osters.jpg"
   caption: 'Foto: Eiliv Leren / Eksportutvalget for fisk'
 slogan:
-  text: Spis skjell med hell, men ring blåskjelltelefonen så du ikke
+  content: Spis skjell med hell, men ring blåskjelltelefonen så du ikke
   attribution: 
 ranking: Orange
 sources:

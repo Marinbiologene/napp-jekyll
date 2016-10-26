@@ -5,7 +5,7 @@ image:
   caption: 'Foto: Alf Børjesson / Eksportutvalget for fisk'
 latin: Mytilus edulis
 slogan:
-  text: Man kan finne på sprell med gode blåskjell
+  content: Man kan finne på sprell med gode blåskjell
   attribution: 
 ranking: Green
 ranking_climate: Good

@@ -5,7 +5,7 @@ image:
   caption: 'Foto: Lauritzen og Westhammer / Eksportutvalget for fisk'
 latin: Gadus morhua
 slogan:
-  text: Bli ikke dorsk, men spis barentshavtorsk
+  content: Bli ikke dorsk, men spis barentshavtorsk
 ranking: Green
 labels:
 - KRAV

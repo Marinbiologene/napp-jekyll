@@ -4,7 +4,7 @@ image:
   file: "/uploads/al.jpg"
   caption: 'Foto: Wikimedia Commons'
 slogan:
-  text: Ikke ta kål på en ål!
+  content: Ikke ta kål på en ål!
   attribution: 
 ranking: Red
 sources:

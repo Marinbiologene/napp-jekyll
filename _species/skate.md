@@ -4,7 +4,7 @@ image:
   file: "/uploads/skate.jpg"
 latin: Rajiformes
 slogan:
-  text: Det er lov å hate en som serverer en skate.
+  content: Det er lov å hate en som serverer en skate.
   attribution: 
 ranking: Red
 sources:
