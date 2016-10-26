@@ -1,7 +1,8 @@
 ---
-layout: page
 title: Om Grønt Napp
+layout: page
 ---
+
 Appen Grønt Napp er et samarbeid mellom Marinbiologene og Lilly Labs.
 
 Marinbiologene står for det faglige innholdet og Benedicte fra Lilly Labs er vår tekniske superkvinne.

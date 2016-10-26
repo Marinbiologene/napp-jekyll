@@ -5,9 +5,9 @@ slogan: Man kan finne på sprell med gode blåskjell
 ranking: Green
 ranking_climate: Good
 labels:
-  - KRAV
+- KRAV
 sources:
-  - Artsdatabanken
+- Artsdatabanken
 ---
 
 Store forekomster av blåskjell finnes langs hele kysten vår. Blåskjellene befinner seg langt nede i næringskjeden, er ofte 'kortreist' og høstes på en måte som gjør lite skade på miljøet. Blåskjell er derfor et veldig godt sjømatvalg!

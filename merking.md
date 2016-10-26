@@ -1,7 +1,8 @@
 ---
-layout: page
 title: Merking av sjømat
+layout: page
 ---
+
 # Krav
 
 ![krav]({{ site.baseurl }}/assets/icons/napp-icon_krav.jpg) Krav er Sveriges mest kjente miljømerking for økologisk mat og miljøsertifiserer en hel rekke matprodukter. Når det gjelder sjømat sertifiserer KRAV villfangede arter slik som norsk torsk, hyse, reker, sei og sild, samt økologisk oppdrettet laks, ørret og torsk. KRAV-merket fisk oppfyller tre vilkår: Fisket skal være bærekraftig, utføres med skånsomme fiskeredskaper som minimerer sjansene for bifangst og skal være mulig å spore. Anbefalinger fra ICES (Det internasjonale havforskerrådet) blir fulgt.

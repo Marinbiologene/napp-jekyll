@@ -3,12 +3,13 @@ title: Hummer (norsk)
 latin: Homarus gammarus
 ranking: Red
 labels:
-  - MSC
-sources: 
-  - WWF
-  - Havforskningsinstituttet
-  - MSC
+- MSC
+sources:
+- WWF
+- Havforskningsinstituttet
+- MSC
 ---
+
 Tyvfiske er den største trusselen mot hummerbestanden. Her mangler det totalt oversikt. Norsk hummer (som er av arten europeisk hummer) finnes på den norske rødlista med status nær truet. Overfiske og mangelfull forvaltning pekes ut som hovedårsakene.
 
 Styr derfor unna norsk hummer!
