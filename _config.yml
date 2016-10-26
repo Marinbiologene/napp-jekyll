@@ -16,12 +16,12 @@ defaults:
     path: ''
     type: species
   values:
-    image:
-    latin:
-    slogan:
-    alert:
-    ranking:
-    ranking_climate:
+    image: 
+    latin: 
+    slogan: 
+    alert: 
+    ranking: 
+    ranking_climate: 
     labels: []
     sources: []
 email: raae@bgraphic.no
