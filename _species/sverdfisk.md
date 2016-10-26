@@ -1,5 +1,7 @@
 ---
 title: Sverdfisk og marlin
+image:
+  file: "/uploads/marlin.jpg"
 ranking: Red
 ranking_climate: Bad
 labels:
