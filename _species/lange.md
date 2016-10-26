@@ -1,5 +1,8 @@
 ---
 title: Lange
+image:
+  file: "/uploads/lange.jpg"
+  caption: 'Foto: Eksportutvalget for fisk'
 latin: Molva molva
 ranking: Orange
 sources:
