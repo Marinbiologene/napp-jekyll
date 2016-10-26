@@ -1,5 +1,8 @@
 ---
 title: Torsk (Barentshavet)
+image:
+  file: "/uploads/torsk.jpg"
+  caption: 'Foto: Lauritzen og Westhammer / Eksportutvalget for fisk'
 latin: Gadus morhua
 slogan: Bli ikke dorsk, men spis barentshavtorsk
 ranking: Green
