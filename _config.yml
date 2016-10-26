@@ -24,7 +24,7 @@ defaults:
       content:
       attribution: 
     alert:
-      text: 
+      content:
       type: 
     ranking: 
     ranking_climate: 
