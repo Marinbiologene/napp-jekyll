@@ -17,6 +17,8 @@ defaults:
     type: species
   values:
     image: 
+      file:
+      caption:
     latin: 
     slogan: 
     alert: 
