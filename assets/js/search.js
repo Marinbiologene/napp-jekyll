@@ -27,6 +27,8 @@
 
     if(hit._highlightResult.title && hit._highlightResult.title.matchLevel !== 'none') {
       title = hit._highlightResult.title.value;
+    } else if(hit._highlightResult.alt_title && hit._highlightResult.alt_title.matchLevel !== 'none') {
+      title = hit._highlightResult.alt_title.value;
     }
 
     if(hit._highlightResult.synonyms) {
