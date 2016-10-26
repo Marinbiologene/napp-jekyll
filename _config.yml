@@ -21,7 +21,7 @@ defaults:
       caption: 
     latin: 
     slogan:
-      text: 
+      content:
       attribution: 
     alert:
       text: 
