@@ -1,7 +1,8 @@
 ---
-layout: page
 title: Klassifisering av arter
+layout: page
 ---
+
 # Fargeinndeling
 
 Listen er laget av Marinbiologene basert på en kombinasjon av WWFs sjømatguide og informasjon fra ICES (Det internasjonale havforskerrådet) og MSC(Marine Stewardship Council).

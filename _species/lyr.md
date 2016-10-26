@@ -1,16 +1,17 @@
 ---
 title: Lyr
 latin: Pollachius pollachius
-synonyms: 
-  - Pollock
+synonyms:
+- Pollock
 ranking: Orange
 ranking_climate: Good
 labels:
-  - MSC
+- MSC
 sources:
-  - ICES
-  - MSC
+- ICES
+- MSC
 ---
+
 Bestandens størrelse er ukjent, men antas å være liten. ICES anbefaler at fangst i Nordsjøen begrenses. I Skagerrak anbefaler de fullstendig stopp i målrettet fiske etter lyr. Du kan fint spise lyr innimellom, men forsøk oftest å velge et annet alternativ.
 
 Alaska pollock er miljømerket, men vil være et dårlig klimavalg på grunn av langtransport.
