@@ -33,7 +33,6 @@ body {
   @media screen and (min-width: 600px) {
     font-size: 160%;
   }
-
 }
 
 .napp-ranking-summary {
@@ -243,7 +242,11 @@ body {
   article.list-group-item {
     display: none;
 
-    :last-child {
+    >ul {
+      margin: 1.5em 0;
+    }
+
+    >:last-child {
       margin-bottom: 0;
     }
   }

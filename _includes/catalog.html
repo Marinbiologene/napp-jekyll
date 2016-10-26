@@ -10,11 +10,23 @@
     </button>
     <article data-url="{{ species.url }}" class="list-group-item">
 
-      <h1>{{ species.title }}</h1>
-
-      {% if species.latin %}
+      <header>
+        <h1>{{ species.title }}</h1>
+        {% if species.latin %}
         <p><em class="text-muted">{{ species.latin }}</em></p>
+        {% endif %}
+      </header>
+
+      <ul>
+        <li>{% include meta/ranking.html %}</li>
+        <li>{% include meta/climate.html %}</li>
+      </ul>
+
+      {% if species.alert and species.alert.content %}
+      <p class="alert alert-{{ species.alert.type | default: info }}">{{ species.alert.content }}</p>
       {% endif %}
+
+      {{ species.content | markdownify }}
 
       {% if species.slogan and species.slogan.content %}
       <blockquote>
@@ -24,16 +36,6 @@
         {% endif %}
       </blockquote>
       {% endif %}
-
-      {% if species.alert and species.alert.content %}
-      <p class="alert alert-{{ species.alert.type | default: info }}">{{ species.alert.content }}</p>
-      {% endif %}
-
-      {{ species.content | markdownify }}
-      <ul>
-        <li>{% include meta/ranking.html %}</li>
-        <li>{% include meta/climate.html %}</li>
-      </ul>
 
       {% if species.labels.size > 0 %}
       <p>{% include meta/labels.html text=true %}</p>
