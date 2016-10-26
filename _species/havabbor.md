@@ -1,5 +1,6 @@
 ---
 title: Havabbor
+alt_title: Hav&shy;abbor
 latin: Dicentrarchus labrax
 ranking: Orange
 labels:

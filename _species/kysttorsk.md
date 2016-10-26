@@ -1,5 +1,6 @@
 ---
-title: Kyst&shy;torsk
+title: Kysttorsk
+alt_title: Kyst&shy;torsk
 image:
   file: "/uploads/torsk.jpg"
   caption: 'Foto: Lauritzen og Westhammer / Eksportutvalget for fisk'

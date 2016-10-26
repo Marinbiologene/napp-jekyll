@@ -1,5 +1,6 @@
 ---
-title: Taske&shy;krabbe
+title: Taskekrabbe
+alt_title: Taske&shy;krabbe
 image:
   file: "/uploads/krabbe.jpg"
   caption: 'Foto: Petter Berg / Eksportutvalget for fisk'

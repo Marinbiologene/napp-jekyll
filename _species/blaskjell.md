@@ -1,5 +1,6 @@
 ---
-title: Blå&shy;skjell
+title: Blåskjell
+alt_title: Blå&shy;skjell
 image:
   file: "/uploads/blaskjell.jpg"
   caption: 'Foto: Alf Børjesson / Eksportutvalget for fisk'
