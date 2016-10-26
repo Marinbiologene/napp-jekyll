@@ -47,6 +47,21 @@ body {
   padding-right: 10px;
 }
 
+.napp-thumbnail {
+
+  img {
+    padding: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+
+  .napp-caption {
+    display: inline-block;
+    margin-top: 1em;
+    padding-left: 4px;
+    font-size: 80%;
+  }
+}
+
 #napp-page {
 
   h1 {

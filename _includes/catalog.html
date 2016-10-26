@@ -42,6 +42,15 @@
       <p>{% include meta/labels.html images=true %}</p>
       {% endif %}
 
+      {% if species.image and species.image.file %}
+      <p class="napp-thumbnail">
+        <img src="{{ species.image.file }}" alt="{{ species.title }}">
+        {% if species.image.caption %}
+          <br/><span class="napp-caption">{{ species.image.caption }}</span>
+        {% endif %}
+      </p>
+      {% endif %}
+
     </article>
   {% endfor %}
 </main>
