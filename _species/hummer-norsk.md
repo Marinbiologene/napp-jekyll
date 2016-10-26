@@ -1,5 +1,8 @@
 ---
 title: Hummer (norsk)
+image:
+  file: "/uploads/hummer.jpg"
+  caption: 'Foto: Yvonne Holth / Eksportutvalget for fisk'
 latin: Homarus gammarus
 ranking: Red
 labels:
