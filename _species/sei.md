@@ -3,7 +3,7 @@ title: Sei
 image:
   file: "/uploads/sei.jpg"
   caption: 'Foto: Lauritzen og Westhammer / Eksportutvalget for fisk'
-slogan: 
+slogan:
   text: Sei er grei
   attribution: 
 ranking: Green

@@ -4,7 +4,7 @@ image:
   file: "/uploads/torsk.jpg"
   caption: 'Foto: Lauritzen og Westhammer / Eksportutvalget for fisk'
 latin: Gadus morhua
-slogan: 
+slogan:
   text: Bli ikke dorsk, men spis barentshavtorsk
 ranking: Green
 labels:

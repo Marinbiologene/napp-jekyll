@@ -3,7 +3,7 @@ title: Skate
 image:
   file: "/uploads/skate.jpg"
 latin: Rajiformes
-slogan: 
+slogan:
   text: Det er lov å hate en som serverer en skate.
   attribution: 
 ranking: Red

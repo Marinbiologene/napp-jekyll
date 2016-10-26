@@ -3,7 +3,7 @@ title: Steinbit
 image:
   file: "/uploads/steinbit.jpg"
   caption: 'Foto: Eiliv Leren / Eksportutvalget for fisk'
-slogan: 
+slogan:
   text: Steinbiten er stygg, men den er din venn. Ikke vær slem, ikke spis den.
   attribution: 
 ranking: Red
