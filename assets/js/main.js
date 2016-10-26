@@ -8,4 +8,6 @@
     $button.blur();
   });
 
+  $("article.list-group-item a").attr('target','_blank');
+
 })(jQuery);
