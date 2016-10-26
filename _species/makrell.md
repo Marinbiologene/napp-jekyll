@@ -4,6 +4,7 @@ latin: Scomber scombrus
 ranking: Orange
 ranking_climate: Good
 ---
+
 Makrellen er trolig utsatt for overfiske, og har nylig har mistet sin MSC-sertifisering på grunn av brudd i kvoteforhandlingene mellom EU, Norge, Færøyene og Island.
 
 Økt kontroll har avdekket at tapet av makrell i fiskeriene kan være langt større enn fangststatistikken forteller på grunn av utkast, slipping m.v. Kunnskap om feilkilder i bestandsmålingene kombinert med alderssammensetningen i prøver fra fisket viser et uforklarlig stort tap. Det er ventet at dette tapet er redusert de seneste årene, men her trengs mer oppdaterte estimater.

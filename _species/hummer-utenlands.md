@@ -3,7 +3,8 @@ title: Hummer (amerikansk)
 latin: Homarus americanus
 ranking: Green
 ranking_climate: Bad
-labels: 
-  - MSC
+labels:
+- MSC
 ---
+
 USA og Canada har MSC-sertifiserte hummerfiskerier, men langtransportert hummer er et dårlig klimavalg.
