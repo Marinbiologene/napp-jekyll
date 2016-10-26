@@ -17,15 +17,14 @@ baseurl: ''
 url: http://grøntnapp.no
 permalink: pretty
 defaults:
--
-  scope:
-      path: ""
-      type: "species"
-    values:
-      latin:
-      slogan:
-      alert:
-      ranking:
-      ranking_climate:
-      labels: []
-      sources: []
+- scope:
+    path: ""
+    type: "species"
+  values:
+    latin:
+    slogan:
+    alert:
+    ranking:
+    ranking_climate:
+    labels: []
+    sources: []
