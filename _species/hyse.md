@@ -8,7 +8,9 @@ ranking: Green
 labels:
 - KRAV
 - MSC
-synonyms: Kolje, Torskefisk
+synonyms: 
+  - Kolje
+  - Torskefisk
 ---
 
 Hyse er en torskefisk som finnes langs hele kysten nord for Stad, i Barentshavet og i Nordsjøen/ Skagerrak.
