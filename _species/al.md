@@ -1,5 +1,7 @@
 ---
 title: Ål
+image:
+  caption: 'Foto: Wikimedia Commons'
 slogan: Ikke ta kål på en ål!
 ranking: Red
 sources:
